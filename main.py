@@ -30,7 +30,7 @@ LINE_CHANNEL_SECRET = os.getenv('LINE_CHANNEL_SECRET')
 GEMINI_API_KEY = os.getenv('GEMINI_API_KEY')
 
 # ★ここを変更：呼び出すときの名前
-BOT_NAME = "ひでまろ" 
+BOT_NAME = "執事" 
 
 genai.configure(api_key=GEMINI_API_KEY)
 # モデルは確認済みのものを使用 (例: gemini-1.5-flash または gemini-pro)
