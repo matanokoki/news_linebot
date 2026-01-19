@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+line-bot-sdk
+trafilatura
+google-generativeai
+python-dotenv
+youtube-transcript-api
