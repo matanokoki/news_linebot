@@ -3,7 +3,7 @@
 LINEグループで共有された「Webニュース記事」や「YouTube動画」の内容を、Google Gemini APIを使って自動で要約してくれるAIボットです。
 家族や友人グループでの情報共有をスムーズにするために開発されました。
 
-## 🚀 Features (機能)
+## Features (機能)
 
 * **Web記事要約:** URLを送ると、広告などを除外して本文のみを抽出し、3行で要約します。
 * **YouTube動画要約:** 動画の字幕データを取得し、内容を要約します（字幕付き動画に対応）。
@@ -11,7 +11,7 @@ LINEグループで共有された「Webニュース記事」や「YouTube動画
 * **高速レスポンス:** FastAPIの非同期処理（BackgroundTasks）を利用し、LINEサーバーのタイムアウトを回避しています。
 * **RAG的アプローチ:** 記事本文をプロンプトに含めてAPIに投げるため、ハルシネーション（嘘の生成）を抑制しています。
 
-## 🛠 Tech Stack (使用技術)
+## Tech Stack (使用技術)
 
 * **Language:** Python 3.x
 * **Framework:** FastAPI (Uvicorn)
@@ -23,7 +23,7 @@ LINEグループで共有された「Webニュース記事」や「YouTube動画
     * `line-bot-sdk`: LINE Bot SDK
 * **Infrastructure:** Raspberry Pi (Home Server) + Cloudflare Tunnel (予定)
 
-## ⚙️ Setup (セットアップ)
+##  Setup (セットアップ)
 
 ### 1. Clone & Install
 
@@ -50,13 +50,10 @@ python main.py
 デフォルトでは `http://0.0.0.0:8000` で起動します。
 外部公開には Cloudflare Tunnel や ngrok などを利用して、LINE DevelopersコンソールのWebhook URLに設定してください。
 
-## 📝 Usage (使い方)
+## Usage (使い方)
 
 LINEのトーク画面で、以下のように話しかけてください。
 
 > 執事 https://news.yahoo.co.jp/articles/xxxxx
 >
 > 執事 https://www.youtube.com/watch?v=xxxxx
-
-## 👨‍💻 Author
-Koki
