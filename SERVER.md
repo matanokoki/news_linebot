@@ -1,4 +1,4 @@
-# 🚀 Raspberry Pi Server Deployment Guide
+# Raspberry Pi Server Deployment Guide
 
 このBotをRaspberry Piで24時間稼働させるためのセットアップ手順です。
 Pythonの自動起動と、ngrokを使った固定ドメインによる外部公開をSystemdで管理します。
