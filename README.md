@@ -11,7 +11,7 @@ LINEグループで共有された「Webニュース記事」や「YouTube動画
 * **高速レスポンス:** FastAPIの非同期処理（BackgroundTasks）を利用し、LINEサーバーのタイムアウトを回避しています。
 * **RAG的アプローチ:** 記事本文をプロンプトに含めてAPIに投げるため、ハルシネーション（嘘の生成）を抑制しています。
 
-## 🛠 Tech Stack (使用技術)
+## Tech Stack (使用技術)
 
 * **Language:** Python 3.x
 * **Framework:** FastAPI (Uvicorn)
@@ -23,7 +23,7 @@ LINEグループで共有された「Webニュース記事」や「YouTube動画
     * `line-bot-sdk`: LINE Bot SDK
 * **Infrastructure:** Raspberry Pi (Home Server) + Cloudflare Tunnel (予定)
 
-## Setup (セットアップ)
+## ⚙️ Setup (セットアップ)
 
 ### 1. Clone & Install
 
@@ -58,5 +58,5 @@ LINEのトーク画面で、以下のように話しかけてください。
 >
 > 執事 https://www.youtube.com/watch?v=xxxxx
 
-## Author
+## 👨‍💻 Author
 Koki
