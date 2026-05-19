@@ -58,5 +58,5 @@ LINEのトーク画面で、以下のように話しかけてください。
 >
 > 執事 https://www.youtube.com/watch?v=xxxxx
 
-## 👨‍💻 Author
+## Author
 Koki
