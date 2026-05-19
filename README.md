@@ -23,7 +23,7 @@ LINEグループで共有された「Webニュース記事」や「YouTube動画
     * `line-bot-sdk`: LINE Bot SDK
 * **Infrastructure:** Raspberry Pi (Home Server) + Cloudflare Tunnel (予定)
 
-## ⚙️ Setup (セットアップ)
+## Setup (セットアップ)
 
 ### 1. Clone & Install
 
